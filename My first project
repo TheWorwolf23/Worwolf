@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+ int nomber;
+ cout<<"enter your nomber\n :";
+ cin>>nomber;
+ if(nomber!=0)
+ {
+    if(nomber%=2)
+    {
+        cout<<"This nomber is not couple :"<<endl;
+    }
+    else
+    {
+        cout<<"This nomber is couple"<<endl;
+    }
+ }
+ else
+ {
+     cout<<"This Nomber is :0"<<endl;
+ }
+    
+    
+    
+}
